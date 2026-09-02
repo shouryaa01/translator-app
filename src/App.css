@@ -1,0 +1,28 @@
+/* App-specific styles */
+
+textarea::-webkit-scrollbar {
+  width: 8px;
+}
+
+textarea::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  border-radius: 10px;
+}
+
+textarea::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+textarea::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Smooth transitions */
+button {
+  transition: all 0.3s ease;
+}
+
+textarea {
+  transition: border-color 0.3s ease;
+}
